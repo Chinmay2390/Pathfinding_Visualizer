@@ -2,7 +2,7 @@
 
 import { Component } from "react";
 import Node from "./node/node";
-import { Elements } from "../../../pathfinding-Visualizer/src/visuals/elements";
+import { Elements } from "../../../pathfindingVisualizer/src/visuals/elements";
 import "./grid.css";
 
 // const NUMGRID = getInitialNum(window.innerWidth -20, window.innerHeight-160);
