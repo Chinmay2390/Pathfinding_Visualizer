@@ -2,22 +2,22 @@
  * including navigation side bars. */
 import { Notify } from "notiflix/build/notiflix-notify-aio";
 import { Component } from "react";
-import { getFinalPathNodes } from "../../../pathfindingVisualizer/src/algorithms/commonFunctions";
+import { getFinalPathNodes } from "../algorithms/commonFunctions";
 import {
   aStarSearch,
   calcManhattanDistance,
   calcEuclideanDistance,
-} from "../../../pathfindingVisualizer/src/algorithms/aStarSearch";
-import { breadthFirstSearch } from "../../../pathfindingVisualizer/src/algorithms/breadthFirstSearch";
-import { depthFirstSearch } from "../../../pathfindingVisualizer/src/algorithms/depthFirstSearch";
-import { bestFirstSearch } from "../../../pathfindingVisualizer/src/algorithms/bestFirstSearch";
+} from "../algorithms/aStarSearch";
+import { breadthFirstSearch } from "../algorithms/breadthFirstSearch";
+import { depthFirstSearch } from "../algorithms/depthFirstSearch";
+import { bestFirstSearch } from "../algorithms/bestFirstSearch";
 import {
   bidirectionalSearch,
   getFinalPathNodesBidirectional,
-} from "../../../pathfindingVisualizer/src/algorithms/bidirectional";
-import { recursiveDivisionMaze } from "../../../pathfindingVisualizer/src/mazeAlgo/recursiveDivision";
-import { randomMaze } from "../../../pathfindingVisualizer/src/mazeAlgo/randomMaze";
-import { aldousBroder } from "../../../pathfindingVisualizer/src/mazeAlgo/aldousBroder";
+} from "../algorithms/bidirectional";
+import { recursiveDivisionMaze } from "../mazeAlgo/recursiveDivision";
+import { randomMaze } from "../mazeAlgo/randomMaze";
+import { aldousBroder } from "../mazeAlgo/aldousBroder";
 // import { Node } from "../grid/node/node";
 import "../grid/node/node.css";
 import "./features.css";
